@@ -11,6 +11,7 @@ class LinkedList {
         LinkedList();
         void insertAtHead(int value);
         void printList();
+        void insertAtTail(int value);
 };
 
 #endif

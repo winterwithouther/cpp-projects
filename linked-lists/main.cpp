@@ -5,6 +5,7 @@ int main() {
     list.insertAtHead(10);
     list.insertAtHead(20);
     list.insertAtHead(30);
+    list.insertAtTail(40);
 
     list.printList(); // output: 30 -> 20 -> 10 -> NULL
 

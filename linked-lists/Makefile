@@ -21,3 +21,6 @@ $(TARGET): $(OBJS)
 # How to build each object file from its source file
 %.o: %.cpp
 	$(CXX) $(CXXFLAGS) -c $<
+
+clean:
+	rm -f $(OBJS) $(TARGET)
